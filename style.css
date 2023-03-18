@@ -1,0 +1,114 @@
+#ca3d23 , #ca3d2{
+    height:68vh ;
+ }
+ 
+ body{
+  height:100%;
+  width:100%;
+  background-color: rgb(71, 70, 70);
+ }
+ 
+ #loading-screen {
+     display: flex;
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color:rgb(71, 70, 70);
+     z-index: 99999;
+     align-items: center;
+     justify-content: center;
+     transition : 1s ease-in-out;
+ }
+ 
+ 
+ .launch{
+   text-align:center;
+ }
+ 
+ .myrow{
+    display:flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .my-contain{
+    width: 100%;
+    height:90vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+   }
+
+ @media only screen and (max-width:600px){
+ 
+ .myrow{
+   display:flex;
+   flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .mycol{
+   width:350px;
+   /* height:350px; */
+ }
+ 
+ .EDMODELbtn{
+   margin-top:10px;
+   margin-bottom:20px;
+ }
+
+ .my-contain{
+  width: 100%;
+  height:100%;
+  margin-top:2rem;
+ }
+ 
+ }
+
+ .footer{
+  bottom:0px;
+  position:relative;
+  width:100%;
+ }
+
+ .navbar{
+  background-color:#161312ee !important;
+  color:#fff;
+ }
+ .navbar-brand{
+  color:#fff;
+ }
+
+ .EDMODELbtn{
+  color: #fff;
+  font-weight: bold;
+ }
+
+ .EDMODELbtn:hover{
+  color: #161312ee;
+ }
+
+ .modal-content{
+  background-color: #161312ee;
+ }
+
+ .modal-title , .btn-close{
+  text-align: center;
+  color: #fff;
+  font-weight: 100;
+ }
+ 
+ .btn-close{
+  background-color: #fff;
+ }
+
+ .modal{
+  background-color:#16131291 ;
+ }
+
+ .spinner-border{
+  color: black;
+ }
