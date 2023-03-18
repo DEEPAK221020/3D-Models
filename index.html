@@ -64,50 +64,62 @@
 
 <div class="container my-contain ">
     <div class="row myrow "> 
-
-
-        <?php   for ($x = 4; $x <=6; $x++) { 
-							
-							
-							$EDS = array("0 ", " 1", " 2", "3 ",
-							"./glb/grenade_launcher.glb",
-							"./glb/p6-atav.glb",
-							"./glb/starship_troopers_armor.glb",
-							);
-							
-							
-							
-							$imgs = array("0", "1" , "2" , "3" ,
-							       "./3dimage/grenade_launcher.jpg",
-							       "./3dimage/p6-atav.jpg",
-							       "./3dimage/starship_troopers_armor.jpg",
-							       );
-							
-							
-							
-							?>
-  <!--echo "The number is: $x <br>";-->
-  
   
   <div class="col-4 mycol">
   <article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-3D">
 							<div class="vlt-portfolio-grid-image pic " id="pic-6">
-									<!-- <img src="./assets/img/gallery/HB_Branding_2.jpg" id="output_img" alt=""> -->
 									<div class="launch EDMODEL">
 									    
-									    <img src="<?php echo $imgs[$x]; ?>" id="canva" alt="" style=" width:100%; height:auto;"> 
+									    <img src="./3dimage/grenade_launcher.jpg" id="canva" alt="" style=" width:100%; height:auto;"> 
 
-									<!--<canvas id="<?php echo '#ca3d'.$x ; ?>" style="display:block; width:100%; height:90%;" >   </canvas>-->
-										 
-									<button type="button" class="btn btn-transparent btns EDMODELbtn" data-bs-toggle="modal" id="btnindex"  data-bs-target="#staticBackdrop" onclick = "myFnt('#ca3d2' , '<?php echo $EDS[$x]; ?>')" >
+									<button type="button" class="btn btn-transparent btns EDMODELbtn" data-bs-toggle="modal" id="btnindex"  data-bs-target="#staticBackdrop" onclick = "myFnt('#ca3d2' , './glb/grenade_launcher.glb')" >
    3D View
 </button>
 									</div>
 
 								</div>
 							</article>
+
                             </div>
-<?php  }   ?>
+
+
+                            <div class="col-4 mycol">
+
+                              <article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-3D">
+                                <div class="vlt-portfolio-grid-image pic " id="pic-6">
+                                    <div class="launch EDMODEL">
+                                        
+                                        <img src="./3dimage/p6-atav.jpg" id="canva" alt="" style=" width:100%; height:auto;"> 
+                  
+                                    <button type="button" class="btn btn-transparent btns EDMODELbtn" data-bs-toggle="modal" id="btnindex"  data-bs-target="#staticBackdrop" onclick = "myFnt('#ca3d2' , './glb/p6-atav.glb')" >
+                     3D View
+                  </button>
+                                    </div>
+                  
+                                  </div>
+                                </article>
+                  
+
+                            </div>
+
+                            <div class="col-4 mycol">
+
+                              <article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-3D">
+                                <div class="vlt-portfolio-grid-image pic " id="pic-6">
+                                    <div class="launch EDMODEL">
+                                        
+                                        <img src="./3dimage/starship_troopers_armor.jpg" id="canva" alt="" style=" width:100%; height:auto;"> 
+                  
+                                    <button type="button" class="btn btn-transparent btns EDMODELbtn" data-bs-toggle="modal" id="btnindex"  data-bs-target="#staticBackdrop" onclick = "myFnt('#ca3d2' , './glb/starship_troopers_armor.glb')" >
+                     3D View
+                  </button>
+                                    </div>
+                  
+                                  </div>
+                                </article>
+
+                            </div>
+
 
 
     </div>
